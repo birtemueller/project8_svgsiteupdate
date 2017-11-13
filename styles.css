@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: #edeff0 url("svgs/background.svg");
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  height: 100%; /* new line */
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+  border-bottom: 1px dotted transparent;
+  transition: border-color .6s ease;
+}
+
+a:hover {
+  color: #111;
+  border-color: #111;
+}
+
+a:hover .st3 {
+  fill: #111;
+}
+
+header {
+  padding-top: 10px;
+}
+
+header nav {
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav ul li svg {
+  height: 18px;
+}
+
+header .logo {
+  height: 120px;
+}
+
+.logo {
+  transition: transform .8s ease;
+}
+
+.logo:hover {
+  transform: rotate(20deg);
+
+}
+
+.logo-headline {
+  color: #EAAA7F;
+}
+
+.logo-text {
+  display: none;
+}
+
+
+main {
+  padding-top: 50px;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+main svg {
+  margin: 15px;
+}
+
+.corgi-1 {
+  color: #BA8058;
+}
+
+.corgi-2 {
+  color: #EAAA7F;
+}
+
+.corgi-3 {
+  color: #844B24;
+}
+
+.corgi-4 {
+  color: #52595F;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+
+
+@media (min-width: 425px) {
+  .logo-headline {
+    display: none;
+  }
+
+  .logo-text {
+    display: inline;
+  }
+}
